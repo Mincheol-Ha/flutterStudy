@@ -1,0 +1,89 @@
+플러터
+
+https://buly.kr/D3dUUcQ
+
+JIT (개발)
+앱 실행시점에 코드가 컴파일되는 방식
+-> 변경한 부분만 즉시 컴파일됨
+-> 실행중에 코드변경을 통해 수정가능
+-> hot reload : 앱을 다시 시작하지 않고도 UI를 빠르게 업데이트 가능 (빠른 개발 및 디버깅)
+
+AOT (릴리즈)
+앱 실행전에 미리 코드가 기계어로 컴파일 되는 방식
+-> 앱 배포전에 미리 최적화하여 실행파일로 컴파일
+-> 컴파일된 코드는 플랫폼에 맞게 최적화됨 (배포)
+
+# Flutter SDK 다운로드
+https://flutter-ko.dev/get-started/install/windows (윈도우용)
+
+>> PATH 환경변ㄴ수 설정 필요!
+>> 명령프롬프트에서  flutter doctor 실행
+>> 안드로이드 SDK 라이센스 동의 -  flutter doctor --android-licenses
+
+# 개발환경 구축 1 - android studio
+dart, flutter 플러그인 설치
+
+# 개발환경 구축 2 - vscode
+korean 확장, atom meterial icon 설치
+dart, flutter 확장 설치
+
+# 개발환경 구축 3
+Dartpad
+Samples >> flutter >> Counter
+
+# vscode에서 flutter 앱 실행하기
+명령프로프트 실행
+
+>> cd Java폴더 경로 ( cd c:/Java )
+>> mkdir hello_world
+>> cd hello_world
+>> flutter create --project-name hello_world .
+>> vscode에서 '폴더열기'
+
+
+# 플러터 주 애플리케이션 폴더
+>> lib -> main.dart
+>> 터미널에서 flutter run 입력
+
+# vscode에서 flutter 앱 실행하기 2
+>> 보기 - 명령 팔레트 (crtl + shift + P ) - flutter P - 프로젝트 유형 선택
+- 프로젝트 저장위치 지정 - 프로젝트 이름 지정
+
+https://buly.kr/2qXXbJ7
+
+# android studio로 dart 개발환경 설정
+>> new Flutter Project - Dart 선택 
+>> Dart SDK : Flitter 설치경로/bin/cache/dart-sdk
+>> Console Application 선택
+>> 프로젝트명 : hello_dart2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
